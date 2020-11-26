@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="promo-wrapper">
     <div class="promo">
       <h1 class="title">
         Английский как конструктор
