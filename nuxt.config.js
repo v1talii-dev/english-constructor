@@ -1,4 +1,15 @@
+const routerBase =
+  process.env.DEPLOY_ENV === "GH_PAGES"
+    ? {
+        router: {
+          base: "/my-nuxt-app/"
+        }
+      }
+    : {};
+
 export default {
+  ...routerBase,
+
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
 
