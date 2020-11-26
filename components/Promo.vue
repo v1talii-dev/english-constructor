@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="promo">
-      <h1>
+      <h1 class="title">
         Английский как конструктор
       </h1>
       <div class="subtitle">
@@ -29,14 +29,20 @@
   width: 100%;
 }
 
+.title {
+  margin: 0 0 20px 0;
+}
+
 .subtitle {
   font-size: 32px;
   font-weight: 300;
+  margin-bottom: 20px;
   color: var(--primary-color);
 }
 
 .info {
   color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 60px;
 }
 
 .img {

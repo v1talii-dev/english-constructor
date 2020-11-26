@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <div class="container">
+      <div class="header-content container">
         <div class="header-container">
           <div class="logo">
             LOGO
@@ -56,7 +56,8 @@ h1 {
   font-size: 16px;
   line-height: 52px;
   padding: 0 18px;
-  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12)!important;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
 .btn:hover {
@@ -67,12 +68,16 @@ h1 {
   width: 1366px;
   max-width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .header {
   padding: 24px 0;
   position: fixed;
   width: 100%;
+}
+.header-content {
+  padding: 0 24px;
 }
 .header-container {
   display: inline-flex;
@@ -94,7 +99,8 @@ h1 {
   color: #696969;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 400;
 }
 .menu-item:hover {
   color: var(--primary-color);
