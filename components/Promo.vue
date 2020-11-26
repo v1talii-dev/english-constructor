@@ -2,7 +2,7 @@
   <div class="promo-wrapper">
     <div class="promo">
       <h1 class="title">
-        Английский как конструктор
+        Английский как конструктор1
       </h1>
       <div class="subtitle">
         Инженерный подход к изучению языка
