@@ -4,5 +4,6 @@
     <Info />
     <Situations />
     <About />
+    <Training />
   </div>
 </template>
