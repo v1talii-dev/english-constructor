@@ -2,6 +2,7 @@
   <div>
     <Promo />
     <Info />
-    <Situations  />
+    <Situations />
+    <About />
   </div>
 </template>

@@ -56,11 +56,11 @@
   align-items: center;
 }
 .situation-list-item-img {
-  width: 100px;
+  width: 70px;
   height: auto;
   margin-right: 20px;
 }
 .situation-list-item-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>

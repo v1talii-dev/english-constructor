@@ -41,7 +41,7 @@ h1 {
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 38px;
   font-weight: 400;
 }
 
@@ -65,7 +65,7 @@ h1 {
 }
 
 .container {
-  width: 1366px;
+  width: 1180px;
   max-width: 100%;
   margin: 0 auto;
   padding-left: 20px;
@@ -100,7 +100,7 @@ h1 {
   color: #696969;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 .menu-item:hover {
@@ -110,15 +110,22 @@ h1 {
 .main {
   padding-top: 96px;
 }
-.main-fragment {
-  padding: 50px 0;
-}
-.main-fragment--grey {
-  background-color: rgba(0, 0, 0, 0.05);
-}
 .main-header {
   margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
+}
+.main-fragment {
+  padding: 60px 0;
+}
+.main-fragment--grey {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.main-fragment--primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.main-fragment--primary .main-header {
+  color: #fff;
 }
 </style>
