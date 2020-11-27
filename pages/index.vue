@@ -1,3 +1,7 @@
 <template>
-  <Promo />
+  <div>
+    <Promo />
+    <Info />
+    <Situations  />
+  </div>
 </template>

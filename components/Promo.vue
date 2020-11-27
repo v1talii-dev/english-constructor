@@ -1,5 +1,5 @@
 <template>
-  <div class="promo-wrapper">
+  <div class="promo-wrapper container">
     <div class="promo">
       <h1 class="title">
         Английский как конструктор
@@ -13,7 +13,7 @@
       <button class="btn">
         УЗНАТЬ ПОДРОБНЕЕ
       </button>
-      <img class="img" src="~/assets/img/promo.svg" />
+      <img class="img" src="~/assets/img/img.svg" />
     </div>
   </div>
 </template>
@@ -27,6 +27,10 @@
   align-items: flex-start;
   justify-content: center;
   width: 100%;
+}
+
+.promo-wrapper {
+  margin-bottom: 50px;
 }
 
 .title {

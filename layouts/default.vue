@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <div class="header-content container">
+      <div class="container">
         <div class="header-container">
           <div class="logo">
             LOGO
@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <Nuxt class="main container" />
+    <Nuxt class="main" />
   </div>
 </template>
 
@@ -41,7 +41,7 @@ h1 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 400;
 }
 
@@ -68,6 +68,8 @@ h1 {
   width: 1366px;
   max-width: 100%;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
   box-sizing: border-box;
 }
 
@@ -75,9 +77,8 @@ h1 {
   padding: 24px 0;
   position: fixed;
   width: 100%;
-}
-.header-content {
-  padding: 0 24px;
+  background-color: #fff;
+  z-index: 1;
 }
 .header-container {
   display: inline-flex;
@@ -108,7 +109,16 @@ h1 {
 
 .main {
   padding-top: 96px;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+.main-fragment {
+  padding: 50px 0;
+}
+.main-fragment--grey {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.main-header {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
 }
 </style>
