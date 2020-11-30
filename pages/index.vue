@@ -6,5 +6,6 @@
     <About />
     <Training />
     <Capabilities />
+    <Comments />
   </div>
 </template>
