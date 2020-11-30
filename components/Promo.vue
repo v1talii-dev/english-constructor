@@ -10,9 +10,9 @@
       <div class="info">
         Освежи школьные знания и заговори по-английски легко.
       </div>
-      <button class="btn">
+      <a class="btn" href="#" target="_blank">
         УЗНАТЬ ПОДРОБНЕЕ
-      </button>
+      </a>
       <img class="img" src="~/assets/img/img.svg" />
     </div>
   </div>
