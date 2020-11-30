@@ -125,7 +125,4 @@
   padding: 16px 0;
   font-weight: 500;
 }
-.comments-list-item-text {
-  font-size: 17px;
-}
 </style>

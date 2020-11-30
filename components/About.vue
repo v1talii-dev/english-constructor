@@ -77,13 +77,9 @@
 
 .step-title {
   text-transform: uppercase;
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 500;
   margin-bottom: 10px;
-}
-
-.step-text {
-  font-size: 18px;
 }
 
 .step-img {
@@ -92,7 +88,6 @@
 }
 
 .step-footer {
-  font-size: 18px;
   color: rgba(255, 255, 255, 0.7);
 }
 </style>

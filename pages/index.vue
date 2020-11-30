@@ -8,5 +8,7 @@
     <Capabilities />
     <Comments />
     <Price />
+    <Faq />
+    <Contacts />
   </div>
 </template>
