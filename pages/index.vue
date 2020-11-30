@@ -5,5 +5,6 @@
     <Situations />
     <About />
     <Training />
+    <Capabilities />
   </div>
 </template>

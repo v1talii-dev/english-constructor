@@ -48,8 +48,8 @@
 .situation-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 40px;
-  row-gap: 40px;
+  column-gap: 50px;
+  row-gap: 50px;
 }
 .situation-list-item {
   display: inline-flex;

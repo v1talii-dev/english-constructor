@@ -1,5 +1,5 @@
 <template>
-  <div id="training" class="main-fragment">
+  <div id="training" class="main-fragment training-wrapper">
     <div class="container">
       <h1 class="main-header">Как проходит обучение</h1>
 
@@ -20,15 +20,53 @@
             </div>
           </div>
         </div>
+
+        <div class="training-item">
+          <img class="training-item-img" src="~/assets/img/img13.svg" />
+          <div class="training-item-text">
+            <img class="training-item-check" src="~/assets/img/img15.svg" />
+            <div class="training-item-check-text">
+              Упражнения и контрольные задания.
+            </div>
+          </div>
+          <div class="training-item-text">
+            <img class="training-item-check" src="~/assets/img/img15.svg" />
+            <div class="training-item-check-text">
+              Вы выполняете упражнения, переводите текстовые задания голосом.
+              Преподаватель проверяет ваши знания.
+            </div>
+          </div>
+        </div>
+
+        <div class="training-item">
+          <img class="training-item-img" src="~/assets/img/img14.svg" />
+          <div class="training-item-text">
+            <img class="training-item-check" src="~/assets/img/img15.svg" />
+            <div class="training-item-check-text">
+              Консультации и ответы на вопросы.
+            </div>
+          </div>
+          <div class="training-item-text">
+            <img class="training-item-check" src="~/assets/img/img15.svg" />
+            <div class="training-item-check-text">
+              Мы проводим с вами консультации, чтобы определить, как вам лучше
+              учиться. Вы можете задавать свои вопросы в чате.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.training-wrapper {
+  padding-bottom: 0;
+}
 .training {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
 }
 .training-item {
   background-color: rgba(0, 0, 0, 0.05);
