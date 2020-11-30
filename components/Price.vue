@@ -1,6 +1,7 @@
 <template>
-  <div id="price" class="price-wrapper main-fragment">
+  <div class="price-wrapper main-fragment">
     <div class="container">
+      <a id="price" class="main-header-link"></a>
       <h1 class="main-header">
         Прайс
       </h1>

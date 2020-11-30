@@ -1,6 +1,7 @@
 <template>
-  <div id="recall" class="comments-wrapper main-fragment">
+  <div class="comments-wrapper main-fragment">
     <div class="container">
+      <a id="recall" class="main-header-link"></a>
       <h1 class="main-header">
         Отзывы учеников
       </h1>

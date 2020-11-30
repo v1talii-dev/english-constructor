@@ -1,6 +1,7 @@
 <template>
-  <div id="about" class="main-fragment main-fragment--primary">
+  <div class="main-fragment main-fragment--primary">
     <div class="container">
+      <a id="about" class="main-header-link"></a>
       <h1 class="main-header">О курсе</h1>
 
       <div class="step">

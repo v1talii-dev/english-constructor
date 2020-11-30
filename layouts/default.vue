@@ -38,9 +38,6 @@ body {
 h1 {
   color: var(--primary-color);
   text-transform: uppercase;
-}
-
-h1 {
   font-size: 38px;
   font-weight: 400;
 }
@@ -115,6 +112,12 @@ h1 {
   margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
+}
+.main-header-link {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
 .main-fragment {
   padding: 60px 0;

@@ -1,6 +1,7 @@
 <template>
-  <div id="contacts" class="main-fragment">
+  <div class="main-fragment">
     <div class="container">
+      <a id="contacts" class="main-header-link"></a>
       <h1 class="main-header">
         Контакты
       </h1>

@@ -1,6 +1,7 @@
 <template>
-  <div id="training" class="main-fragment training-wrapper">
+  <div class="main-fragment training-wrapper">
     <div class="container">
+      <a id="training" class="main-header-link"></a>
       <h1 class="main-header">Как проходит обучение</h1>
 
       <div class="training">

@@ -1,6 +1,8 @@
 <template>
-  <div id="faq" class="main-fragment main-fragment--primary">
+  <div  class="main-fragment main-fragment--primary">
     <div class="container">
+      <a id="faq" class="main-header-link"></a>
+
       <h1 class="main-header">FAQ</h1>
 
       <div class="faq-item">
