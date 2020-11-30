@@ -22,7 +22,13 @@ export default {
       { hid: "description", name: "description", content: "" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: `${
+          process.env.DEPLOY_ENV === "GH_PAGES" ? "/english-constructor" : ""
+        }/favicon.ico`
+      },
       {
         rel: "stylesheet",
         href:
