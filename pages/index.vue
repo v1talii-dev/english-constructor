@@ -7,5 +7,6 @@
     <Training />
     <Capabilities />
     <Comments />
+    <Price />
   </div>
 </template>
