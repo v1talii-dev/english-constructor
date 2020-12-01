@@ -3,9 +3,7 @@
     <div class="header">
       <div class="container">
         <div class="header-container">
-          <div class="logo">
-            LOGO
-          </div>
+          <img class="logo" src="~/assets/logo.png" />
 
           <div class="menu">
             <a class="menu-item" href="#about">О курсе</a>
@@ -72,7 +70,7 @@ h1 {
 }
 
 .header {
-  padding: 24px 0;
+  padding: 12px 0;
   position: fixed;
   width: 100%;
   background-color: #fff;
@@ -84,10 +82,10 @@ h1 {
 }
 
 .logo {
-  margin-right: 32px;
-  font-size: 48px;
-  color: var(--primary-color);
-  line-height: 1;
+  margin-left: -8px;
+  margin-right: 24px;
+  width: 90px;
+  height: auto;
 }
 
 .menu {
