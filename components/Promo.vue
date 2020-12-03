@@ -53,7 +53,27 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .promo {
+    height: 70vh;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .info {
+    margin-bottom: 20px;
+  }
+
+  .img {
+    right: 50%;
+    transform: translateX(50%);
+  }
 }
 </style>

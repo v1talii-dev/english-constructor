@@ -5,20 +5,53 @@
         <div class="header-container">
           <img class="logo" src="~/assets/logo.png" />
 
-          <div class="menu">
-            <a class="menu-item" href="#about">О курсе</a>
-            <a class="menu-item" href="#training">Обучение</a>
-            <a class="menu-item" href="#recall">Отзывы</a>
-            <a class="menu-item" href="#price">Прайс</a>
-            <a class="menu-item" href="#faq">FAQ</a>
-            <a class="menu-item" href="#contacts">Контакты</a>
+          <div class="menu" :class="menuActive ? ['menu--active'] : []">
+            <a class="menu-item" @click="menuToggle()" href="#about">О курсе</a>
+            <a class="menu-item" @click="menuToggle()" href="#training">
+              Обучение
+            </a>
+            <a class="menu-item" @click="menuToggle()" href="#recall">Отзывы</a>
+            <a class="menu-item" @click="menuToggle()" href="#price">Прайс</a>
+            <a class="menu-item" @click="menuToggle()" href="#faq">FAQ</a>
+            <a class="menu-item" @click="menuToggle()" href="#contacts">
+              Контакты
+            </a>
           </div>
+
+          <button class="menu-btn" type="button" @click="menuToggle()">
+            <img
+              v-show="!menuActive"
+              class="menu-icon"
+              src="~/assets/img/menu.svg"
+            />
+            <img
+              v-show="menuActive"
+              class="menu-icon"
+              src="~/assets/img/cancel.svg"
+            />
+          </button>
         </div>
       </div>
     </div>
     <Nuxt class="main" />
   </div>
 </template>
+
+<script>
+export default {
+  data: () => {
+    return {
+      menuActive: false
+    };
+  },
+
+  methods: {
+    menuToggle() {
+      this.menuActive = !this.menuActive;
+    }
+  }
+};
+</script>
 
 <style>
 html {
@@ -129,5 +162,58 @@ h1 {
 }
 .main-fragment--primary .main-header {
   color: #fff;
+}
+.menu-btn {
+  display: none;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 54px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu--active {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 70px;
+    left: 0;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .menu--active a {
+    display: block;
+    padding: 8px 0;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu-btn:focus,
+  .menu-btn:active {
+    outline: none;
+  }
+  .menu-icon {
+    width: 26px;
+    height: auto;
+    cursor: pointer;
+    display: block;
+  }
+
+  .main {
+    padding-top: 70px;
+  }
+  .main-header-link {
+    top: -120px;
+  }
 }
 </style>
