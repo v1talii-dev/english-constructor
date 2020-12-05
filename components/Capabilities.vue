@@ -70,13 +70,22 @@
   font-size: 18px;
 }
 .possibility-footer {
-  ont-size: 18px;
+  font-size: 18px;
   margin-top: 50px;
 }
 
 @media (max-width: 1024px) {
   .possibility-list {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 414px) {
+  .possibility-list-item-text {
+    font-size: 16px;
+  }
+  .possibility-footer {
+    font-size: 15px;
   }
 }
 </style>

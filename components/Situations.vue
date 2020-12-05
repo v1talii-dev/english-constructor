@@ -69,4 +69,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 414px) {
+  .situation-list-item-text {
+    font-size: 16px;
+  }
+}
 </style>

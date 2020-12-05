@@ -208,4 +208,9 @@
     row-gap: 20px;
   }
 }
+@media (max-width: 414px) {
+  .price-list-item {
+    padding: 20px;
+  }
+}
 </style>

@@ -83,4 +83,10 @@
   font-weight: 500;
   margin-bottom: 20px;
 }
+
+@media (max-width: 414px) {
+  .faq-item-title {
+    font-size: 20px;
+  }
+}
 </style>

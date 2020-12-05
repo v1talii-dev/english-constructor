@@ -1,6 +1,7 @@
 <template>
   <div class="promo-wrapper container">
     <div class="promo">
+      <a id="promo" class="main-header-link"></a>
       <h1 class="title">
         Английский как конструктор
       </h1>

@@ -100,6 +100,10 @@
     grid-template-columns: 1fr;
     row-gap: 20px;
   }
+
+  .training-item-text {
+    width: 100%;
+  }
 }
 
 @media (max-width: 414px) {

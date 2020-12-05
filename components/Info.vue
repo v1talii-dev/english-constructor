@@ -15,7 +15,6 @@
 <style scoped>
 .info-text {
   text-align: center;
-  text-transform: uppercase;
   font-size: 24px;
   margin: 0;
 }

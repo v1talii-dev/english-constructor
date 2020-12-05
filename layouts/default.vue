@@ -3,7 +3,9 @@
     <div class="header">
       <div class="container">
         <div class="header-container">
-          <img class="logo" src="~/assets/logo.png" />
+          <a href="#promo">
+            <img class="logo" src="~/assets/logo.png" />
+          </a>
 
           <div class="menu" :class="menuActive ? ['menu--active'] : []">
             <a class="menu-item" @click="menuToggle()" href="#about">О курсе</a>
@@ -177,6 +179,7 @@ h1 {
   }
   .logo {
     width: 54px;
+    margin-right: 0;
   }
   .menu {
     display: none;
@@ -214,6 +217,18 @@ h1 {
   }
   .main-header-link {
     top: -120px;
+  }
+  .main-fragment {
+    padding: 40px 0;
+  }
+  .main-header {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
   }
 }
 
