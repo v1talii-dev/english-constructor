@@ -216,4 +216,10 @@ h1 {
     top: -120px;
   }
 }
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 26px;
+  }
+}
 </style>

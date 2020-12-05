@@ -60,11 +60,12 @@
 
 @media screen and (max-width: 1024px) {
   .promo {
-    height: 70vh;
+    height: auto;
     text-align: center;
     justify-content: start;
     align-items: center;
-    margin-top: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
   }
 
   .info {
@@ -72,8 +73,18 @@
   }
 
   .img {
-    right: 50%;
-    transform: translateX(50%);
+    position: relative;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .info {
+    display: none;
   }
 }
 </style>
