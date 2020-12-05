@@ -19,4 +19,10 @@
   font-size: 24px;
   margin: 0;
 }
+
+@media (max-width: 414px) {
+  .info-text {
+    font-size: 16px;
+  }
+}
 </style>

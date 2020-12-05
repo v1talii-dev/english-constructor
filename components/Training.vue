@@ -94,4 +94,17 @@
 .training-item-check-text {
   text-align: left;
 }
+
+@media (max-width: 1024px) {
+  .training {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .training-item {
+    padding: 20px;
+  }
+}
 </style>

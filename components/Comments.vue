@@ -126,4 +126,10 @@
   padding: 16px 0;
   font-weight: 500;
 }
+
+@media (max-width: 1024px) {
+  .comments-list {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

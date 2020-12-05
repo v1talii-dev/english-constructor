@@ -58,7 +58,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .promo {
     height: auto;
     text-align: center;
@@ -78,7 +78,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media (max-width: 414px) {
   .subtitle {
     font-size: 18px;
   }

@@ -63,4 +63,10 @@
 .situation-list-item-text {
   font-size: 18px;
 }
+
+@media (max-width: 1024px) {
+  .situation-list {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

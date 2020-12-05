@@ -201,4 +201,11 @@
 .price-list-item-buy {
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .price-list {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}
 </style>

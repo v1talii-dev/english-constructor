@@ -38,12 +38,24 @@
 .contacts-list-img {
   height: 40px;
   object-fit: contain;
+}
+.contacts-list a {
   margin-right: 30px;
+}
+.contacts-list a:last-child {
+  margin-right: 0;
 }
 .contacts-list-img--vk {
   height: 48px;
 }
 .contacts-list-img--tg {
   height: 34px;
+}
+
+@media (max-width: 414px) {
+  .contacts-list {
+    justify-content: center;
+    width: 100%;
+  }
 }
 </style>

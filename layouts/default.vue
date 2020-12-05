@@ -170,7 +170,7 @@ h1 {
   background-color: transparent;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header-container {
     width: 100%;
     justify-content: space-between;
@@ -217,7 +217,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media (max-width: 414px) {
   h1 {
     font-size: 26px;
   }

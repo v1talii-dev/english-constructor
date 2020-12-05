@@ -91,4 +91,13 @@
 .step-footer {
   color: rgba(255, 255, 255, 0.7);
 }
+
+@media (max-width: 414px) {
+  .step-info {
+    width: 100%;
+  }
+  .step-img {
+    display: none;
+  }
+}
 </style>

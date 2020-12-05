@@ -73,4 +73,10 @@
   ont-size: 18px;
   margin-top: 50px;
 }
+
+@media (max-width: 1024px) {
+  .possibility-list {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
