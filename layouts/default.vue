@@ -216,7 +216,7 @@ h1 {
     padding-top: 70px;
   }
   .main-header-link {
-    top: -100px;
+    top: -110px;
   }
   .main-fragment {
     padding: 40px 0;
