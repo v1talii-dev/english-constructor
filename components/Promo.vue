@@ -1,7 +1,7 @@
 <template>
   <div class="promo-wrapper container">
     <div class="promo">
-      <a id="promo" class="main-header-link"></a>
+      <a id="promo" class="main-header-link promo-link"></a>
       <h1 class="title">
         Английский как конструктор
       </h1>
@@ -28,6 +28,10 @@
   align-items: flex-start;
   justify-content: center;
   width: 100%;
+}
+
+.promo-link {
+  top: -260px;
 }
 
 .promo-wrapper {

@@ -99,5 +99,8 @@
   .step-img {
     display: none;
   }
+  .step-footer {
+    font-size: 15px;
+  }
 }
 </style>
