@@ -11,7 +11,7 @@
       <div class="info">
         Освежи школьные знания и заговори по-английски легко.
       </div>
-      <a class="btn" href="#" target="_blank">
+      <a class="btn" href="#price">
         УЗНАТЬ ПОДРОБНЕЕ
       </a>
       <img class="img" src="~/assets/img/img.svg" />

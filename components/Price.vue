@@ -40,10 +40,14 @@
             </div>
           </div>
           <div class="price-list-item-coast">
-            1200 ₽/мес
+            1590 ₽/мес
           </div>
           <div class="price-list-item-buy">
-            <a class="btn" target="_blank" href="#">
+            <a
+              class="btn"
+              target="_blank"
+              href="https://oplatakursov.ru/payment/niharhzmtxjt"
+            >
               КУПИТЬ
             </a>
           </div>
@@ -88,10 +92,14 @@
             </div>
           </div>
           <div class="price-list-item-coast">
-            2400 ₽/мес
+            2490 ₽/мес
           </div>
           <div class="price-list-item-buy">
-            <a class="btn" target="_blank" href="#">
+            <a
+              class="btn"
+              target="_blank"
+              href="https://oplatakursov.ru/payment/lnwdfrlebqov"
+            >
               КУПИТЬ
             </a>
           </div>
@@ -102,7 +110,7 @@
               ПАКЕТ
             </div>
             <div>
-              «Максимум результата»
+              «Дайте мне лучшее»
             </div>
           </div>
           <div class="price-list-item-text">
@@ -136,10 +144,14 @@
             </div>
           </div>
           <div class="price-list-item-coast">
-            5900 ₽/мес
+            5890 ₽/мес
           </div>
           <div class="price-list-item-buy">
-            <a class="btn" target="_blank" href="#">
+            <a
+              class="btn"
+              target="_blank"
+              href="https://oplatakursov.ru/payment/myftcvkvjeco"
+            >
               КУПИТЬ
             </a>
           </div>
