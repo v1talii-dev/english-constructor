@@ -1,14 +1,14 @@
-const routerBase =
-  process.env.DEPLOY_ENV === "GH_PAGES"
-    ? {
-        router: {
-          base: "/english-constructor/"
-        }
-      }
-    : {};
+// const routerBase =
+//   process.env.DEPLOY_ENV === "GH_PAGES"
+//     ? {
+//         router: {
+//           base: "/english-constructor/"
+//         }
+//       }
+//     : {};
 
 export default {
-  ...routerBase,
+  // ...routerBase,
 
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
@@ -25,9 +25,10 @@ export default {
       {
         rel: "icon",
         type: "image/x-icon",
-        href: `${
-          process.env.DEPLOY_ENV === "GH_PAGES" ? "/english-constructor" : ""
-        }/favicon.ico`
+        // href: `${
+        //   process.env.DEPLOY_ENV === "GH_PAGES" ? "/english-constructor" : ""
+        // }/favicon.ico`,
+        href: "/favicon.ico"
       },
       {
         rel: "stylesheet",
