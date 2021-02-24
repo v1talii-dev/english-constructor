@@ -23,7 +23,9 @@ jobs:
           command: npm run generate:gh-pages-custom-domain
       - run:
           name: create-cname
-          command: echo "learnitnow.ru" > CNAME;
+          command: |
+            ls;
+            echo "learnitnow.ru" > CNAME;
       - run:
           name: Install and configure dependencies
           command: |
