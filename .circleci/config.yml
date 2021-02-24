@@ -20,7 +20,7 @@ jobs:
             - ./node_modules
       - run:
           name: build-project
-          command: npm run generate:gh-pages
+          command: npm run generate:gh-pages-custom-domain
       - run:
           name: Install and configure dependencies
           command: |
